@@ -17,26 +17,6 @@ function Matbexamples() {
                     tale om
                     opgave 2
                     i eksamenssættet fra maj 2019.</p>
-            {/* <div className="examplesGrid">
-                <div className="examplesInnerGrid">
-                    <button>Sand eller falsk løsning</button>
-                    <button>Tegn gafen</button>
-                    <button>Identificer graf eller funktion</button>
-                    <button>Hældningskoefficienten</button>
-                    <button>Parabler</button>
-                    <button>Halveringskonstanten</button>
-                    <button>Modeller</button>
-                    <button>Afledede funktioner</button>
-                    <button>Stamfunktioner</button>
-                    <button>Deskriptiv statistisk</button>
-                    <button>Geometri</button>
-                    <button>En atypisk opgave</button>
-                </div>
-                <div className="exampleDiv">
-                    <Trueorfalse />
-                    <Drawgraph />
-                </div>
-            </div> */}
             <div className="exampleBtns">
                 <Toggle>
                     {({ on, toggle }) => (

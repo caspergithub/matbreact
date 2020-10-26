@@ -9,7 +9,7 @@ import Img5 from '../../../assets/images/img5.png'
 function Trueorfalse() {
     return (
         <section>
-            <h2>Sand eller falsk løsning</h2>
+            <h3>Sand eller falsk løsning</h3>
             <h4>OPG2MAJ19</h4>
             <div className="imgDiv">
                 <img src={Img1} alt="img1" className="exampleImg" />

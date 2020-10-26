@@ -8,6 +8,13 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 28px;
+    color: darkblue;
+    text-align: center;
+    margin: 0;
+}
+
 section {
     width: auto;
     max-width: 1200px;
@@ -17,4 +24,8 @@ section {
         font-size: 1.1em;
         line-height: 1.6em;
     }
+}
+
+hr {
+    margin: 40px 0;
 }

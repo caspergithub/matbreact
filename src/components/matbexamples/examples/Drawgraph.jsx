@@ -14,7 +14,7 @@ import Img15 from '../../../assets/images/img15.png'
 function Drawgraph() {
     return (
         <section>
-            <h2>Tegn grafen</h2>
+            <h3>Tegn grafen</h3>
             <h4>OPG4MAJ19</h4>
             <div className="imgDiv">
                 <img src={Img6} alt="img6" className="exampleImg" />
