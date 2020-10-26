@@ -2,6 +2,8 @@ import React from 'react'
 import Toggle from '../ui/Toggle'
 import Trueorfalse from './examples/Trueorfalse'
 import Drawgraph from './examples/Drawgraph'
+import Identifygraphorfunction from './examples/Identifygraphorfunction'
+import Theslopecoefficient from './examples/Theslopecoefficient'
 
 function Matbexamples() {
 
@@ -31,6 +33,22 @@ function Matbexamples() {
                         <div className="exampleBtn">
                             <button onClick={toggle}>Tegn grafen</button>
                             {on && <Drawgraph />}
+                        </div>
+                    )}
+                </Toggle>
+                <Toggle>
+                    {({ on, toggle }) => (
+                        <div className="exampleBtn">
+                            <button onClick={toggle}>Identificer graf eller funktion</button>
+                            {on && <Identifygraphorfunction />}
+                        </div>
+                    )}
+                </Toggle>
+                <Toggle>
+                    {({ on, toggle }) => (
+                        <div className="exampleBtn">
+                            <button onClick={toggle}>Hældningskoefficienten</button>
+                            {on && <Theslopecoefficient />}
                         </div>
                     )}
                 </Toggle>
