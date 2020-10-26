@@ -1,4 +1,5 @@
 import React from 'react'
+import Toggle from '../ui/Toggle'
 import Trueorfalse from './examples/Trueorfalse'
 import Drawgraph from './examples/Drawgraph'
 
@@ -16,7 +17,7 @@ function Matbexamples() {
                     tale om
                     opgave 2
                     i eksamenssættet fra maj 2019.</p>
-            <div className="examplesGrid">
+            {/* <div className="examplesGrid">
                 <div className="examplesInnerGrid">
                     <button>Sand eller falsk løsning</button>
                     <button>Tegn gafen</button>
@@ -35,6 +36,24 @@ function Matbexamples() {
                     <Trueorfalse />
                     <Drawgraph />
                 </div>
+            </div> */}
+            <div className="exampleBtns">
+                <Toggle>
+                    {({ on, toggle }) => (
+                        <div className="exampleBtn">
+                            <button onClick={toggle}>Sand eller falsk løsning</button>
+                            {on && <Trueorfalse />}
+                        </div>
+                    )}
+                </Toggle>
+                <Toggle>
+                    {({ on, toggle }) => (
+                        <div className="exampleBtn">
+                            <button onClick={toggle}>Tegn grafen</button>
+                            {on && <Drawgraph />}
+                        </div>
+                    )}
+                </Toggle>
             </div>
         </section>
     )
