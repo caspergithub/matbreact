@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Topnav.scss'
-import headerimg from '../../assets/images/header.png'
+import headerimg from '../../assets/images/MATBKogebogcropped.png'
 import { FaHome } from 'react-icons/fa'
 import { FaLink } from 'react-icons/fa'
 import { FaBook } from 'react-icons/fa'

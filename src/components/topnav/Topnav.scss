@@ -1,8 +1,12 @@
 header {
-    background-color: #f2f2f2;
+    background-color: #0f2868;
+    text-align: center;
     .headerimg {
         width: 100%;
+        max-width: 400px;
         object-fit: contain;
+        margin: auto;
+
     }
 }
 
@@ -17,14 +21,15 @@ nav {
     }
     .topnavLink {
         text-decoration: none;
-        color: #222;
+        color: #222222;
         font-size: 1.2em;
         padding: 14px 12px;
         &:hover {
-            color: #444;
+            color: #444444;
         }
         svg {
             height: 16px;
+            color: darkblue;
         }
     }
 }
